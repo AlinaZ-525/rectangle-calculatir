@@ -44,7 +44,7 @@ int main () {
 
 	cout << endl;
 	cout << "Конец" << endl;
-	//проверка
+	//проверка 2.0
 	return 0;
 	}
 
