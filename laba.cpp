@@ -77,6 +77,29 @@ int main() {
             var= false;
             continue;
         }
+        if ((a + b + c) < d) {
+            cout << "Сумма трех сторон должна быть больше четвертой" << endl;
+            var= false;
+            continue;
+        }
+
+        if ((a + b + d) < c) {
+            cout << "Сумма трех сторон должна быть больше четвертой" << endl;
+            var= false;
+            continue;
+        }
+
+        if ((a + d + c) < b) {
+            cout << "Сумма трех сторон должна быть больше четвертой" << endl;
+            var= false;
+            continue;
+        }
+
+        if ((d + b + c) < a) {
+            cout << "Сумма трех сторон должна быть больше четвертой" << endl;
+            var= false;
+            continue;
+        }
 
         var = true;
     }
