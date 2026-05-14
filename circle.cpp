@@ -2,7 +2,7 @@
 #include <clocale>
 using namespace std;
 int main() {
-    setlocale(LC_ALL, "Russuain");
+    setlocale(LC_ALL, "Russian");
     cout << "Окружность " << endl;
     double r; // Радиус окружности
     //Защита для радиуса
@@ -33,8 +33,8 @@ int main() {
     } while (angle <= 0 || angle > 360);
     
     const double PI = 3.14159265359;
-    double circumference = 2 * PI * r;                    // Длина окружности: C = 2πr
-    double area_circle = PI * r * r;                      // Площадь круга: S = πr²
+    double circumference = 2 * PI * r;              // Длина окружности: C = 2πr
+    double area_circle = PI * r * r;                // Площадь круга: S = πr²
     double area_sector = (angle / 360.0) * area_circle;   // Площадь сектора: S = (α/360)·πr²
     
     // вывод результатов:
